@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h3>Welcome</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue porttitor sagittis. Proin et faucibus mi, eget posuere augue. Nulla mi ligula, rhoncus quis sapien in, egestas bibendum arcu. Phasellus faucibus nulla et arcu pulvinar, et pellentesque velit vehicula. Suspendisse non dolor a nibh efficitur sodales. Mauris pharetra, nibh ac facilisis ultricies, ligula felis euismod massa, ac aliquam massa diam sed lorem. Praesent efficitur tincidunt urna sit amet congue. Integer ut libero non magna placerat accumsan. Phasellus eget ultrices libero.
+<h3>Sections</h3>
+The following are the varius section, each has differnt content.
+<table class="table table-striped table-hover">
+    <tbody data-link="row" class="rowlink">
+    {% for value in sections %}
+        <tr>
+            <td><a href="/">{{loop.index}}</a></td>
+            <td>{{value.name}}</td>
+            <td>{{value.disc}}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
