@@ -1,0 +1,11 @@
+<sections>
+    <section name="Getting started" disc="Here we lean the basics">
+        <tag>Starting</tag>
+        <tag>Science</tag>
+        <resource href="./GettingStarted.pptx" type="PP" name="Getting Started Power Point" disc="The powerpoint for this section" />
+        <resource href="www.google.com" type="link-ex" name="Google" disc="A link to google" />
+    </section>
+    <section name="The end" disc="Here is the end">
+        <resource href="www.bing.com" type="link-ex" name="Bing" disc="A link to bing." />
+    </section>
+</sections>
