@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Section - {{id}}{% endblock %}
+{% block content %}
+
+<h3>{{section.name}}</h3>
+{{section.disc}}
+<h4>Resources</h4>
+<table class="table table-striped table-hover">
+    <tbody data-link="row" class="rowlink">
+    {% for resource in section.resources %}
+        <tr>
+            <td><a href="{{resource.href}}"><span class="glyphicon glyphicon-{{resource.resourceType}}"></span></a></td>
+            <td>{{resource.name}}</td>
+            <td>{{resource.disc}}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

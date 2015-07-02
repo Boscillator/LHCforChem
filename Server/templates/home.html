@@ -9,7 +9,7 @@ The following are the varius section, each has differnt content.
     <tbody data-link="row" class="rowlink">
     {% for value in sections %}
         <tr>
-            <td><a href="/">{{loop.index}}</a></td>
+            <td><a href="{{url_for('section',id=loop.index-1)}}">{{loop.index}}</a></td>
             <td>{{value.name}}</td>
             <td>{{value.disc}}</td>
         </tr>

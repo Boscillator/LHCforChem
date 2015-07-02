@@ -3,9 +3,9 @@
         <tag>Starting</tag>
         <tag>Science</tag>
         <resource href="./GettingStarted.pptx" type="globe" name="Getting Started Power Point" disc="The powerpoint for this section" />
-        <resource href="www.google.com" type="link" name="Google" disc="A link to google" />
+        <resource href="http://www.google.com" type="link" name="Google" disc="A link to google" />
     </section>
     <section name="The end" disc="Here is the end">
-        <resource href="www.bing.com" type="link" name="Bing" disc="A link to bing." />
+        <resource href="http://www.bing.com" type="link" name="Bing" disc="A link to bing." />
     </section>
 </sections>
