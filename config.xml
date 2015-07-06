@@ -2,10 +2,10 @@
     <section name="Getting started" disc="Here we lean the basics">
         <tag>Starting</tag>
         <tag>Science</tag>
-        <resource href="./GettingStarted.pptx" type="globe" name="Getting Started Power Point" disc="The powerpoint for this section" />
-        <resource href="http://www.google.com" type="link" name="Google" disc="A link to google" />
+        <resource href="/static/GettingStarted.pptx" type="globe" search="./search/GettingStarted.pptx.search" name="Getting Started Power Point" disc="The powerpoint for this section" />
+        <resource href="http://www.google.com" type="link" search="./search/www.google.com.search" name="Google" disc="A link to google" />
     </section>
     <section name="The end" disc="Here is the end">
-        <resource href="http://www.bing.com" type="link" name="Bing" disc="A link to bing." />
+        <resource href="http://www.bing.com" type="link" search="./search/www.bing.com.search" name="Bing" disc="A link to bing." />
     </section>
 </sections>

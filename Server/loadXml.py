@@ -11,12 +11,14 @@ class Resource(XmlBase):
     """
     Rousource Model
     """
-    def __init__(self, href, resourecType, name, disc):
+    def __init__(self, href, resourecType, name, disc, section, searchURL=None):
         self.href = href
         self.resourceType = resourecType
         self.name = name
         self.disc = disc
-    
+        self.section = section
+        self.search = open(searchURL).read()
+          
 class Section(XmlBase):
     """
     Section Model
@@ -49,7 +51,8 @@ def loadXML(xml):
                 resourceType = ch.attrib["type"]
                 name = ch.attrib["name"]
                 disc = ch.attrib["disc"]
-                sections[-1].resources.append(Resource(href,resourceType,name,disc))
+                search = ch.attrib["search"]
+                sections[-1].resources.append(Resource(href,resourceType,name,disc,sections[-1],search))
         
     return sections
     
