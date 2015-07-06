@@ -11,13 +11,13 @@ class Resource(XmlBase):
     """
     Rousource Model
     """
-    def __init__(self, href, resourecType, name, disc, section, searchURL=None):
+    def __init__(self, href, resourceType, name, disc, section, searchURL=None):
         self.href = href
-        self.resourceType = resourecType
+        self.resourceType = resourceType
         self.name = name
         self.disc = disc
         self.section = section
-        self.search = open(searchURL).read()
+        self.search = open(searchURL).read().lower()
           
 class Section(XmlBase):
     """
