@@ -5,6 +5,7 @@ Contains routes
 from Server import app
 from flask import render_template, request
 
+
 @app.route('/')
 def home():
     return render_template('home.html', sections = app.config["models"])
@@ -24,3 +25,4 @@ def search():
                 resources.append(resource)
                 
     return render_template("search.html",resources=resources)
+
