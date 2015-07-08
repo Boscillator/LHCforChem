@@ -3,7 +3,7 @@ Contains routes
 """
 
 from Server import app
-from flask import render_template, request
+from flask import render_template, request, abort
 
 
 @app.route('/')
@@ -25,4 +25,13 @@ def search():
                 resources.append(resource)
                 
     return render_template("search.html",resources=resources)
+
+@app.route('/artical/<name>')
+def artical(name):
+    try:
+        f = open('./articals/'+name)
+    except IOError:
+        abort(404)
+    text = f.read()
+    return render_template('content.html',content=text,Title=name.split('.')[0])
 
