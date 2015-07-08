@@ -1,11 +1,15 @@
 <sections>
-    <section name="Getting started" disc="Here we lean the basics">
-        <tag>Starting</tag>
-        <tag>Science</tag>
-        <resource href="/static/GettingStarted.pptx" type="globe" search="./search/GettingStarted.pptx.search" name="Getting Started Power Point" disc="The powerpoint for this section" />
-        <resource href="http://www.google.com" type="link" search="./search/www.google.com.search" name="Google" disc="A link to google" />
+    <section name="The LHC" disc="The basics of the LHC. Where it is and what is does.">
+        <tag>LHC</tag>
+        <resource href="/artical/WhatIsTheLHC.html" type="align-left" search="./search/WhatIsTheLHC.html.search" name="What is the LHC" disc="A quick overview of the LHC" />
+        <resource href="/static/img/LHCSITE000.png" type="picture" search="./search/LHCSITE000.png.search" name="LHC Map" disc="A diagram of the LHC" />
+        <resource href="/static/img/LHCSITE001.png" type="picture" search="./search/LHCSITE001.png.search" name="LHC Map" disc="A map of the LHC" />
     </section>
-    <section name="The end" disc="Here is the end">
-        <resource href="http://www.bing.com" type="link" search="./search/www.bing.com.search" name="Bing" disc="A link to bing." />
+    <section name="CMS" disc="All about The Compact Mewon Solonoid">
+        <resource href="/artical/CMS.html" type="align-left" search="./search/CMS.html.search" name="What is CMS" disc="A quick overview of CMS" />
+        <resource href="/static/img/LHCSITE002.png" type="picture" search="./search/LHCSITE002.png.search" name="CMS" disc="A picture of CMS while under construction" />
+        <resource href="/static/img/LHCSITE004.png" type="picture" search="./search/LHCSITE004.png.search" name="Diagram of CMS" disc="A diagram of the componance of CMS" />
+        <resource href="http://cms.web.cern.ch/news/what-cms" type="link" search="./search/cms.web.cern.chnewswhat-cms.search" name="Useful Link" disc="CMS's disctription of cms" />
     </section>
+
 </sections>
