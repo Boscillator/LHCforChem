@@ -10,6 +10,7 @@
         <resource href="/static/img/LHCSITE002.png" type="picture" search="./search/LHCSITE002.png.search" name="CMS" disc="A picture of CMS while under construction" />
         <resource href="/static/img/LHCSITE004.png" type="picture" search="./search/LHCSITE004.png.search" name="Diagram of CMS" disc="A diagram of the componance of CMS" />
         <resource href="http://cms.web.cern.ch/news/what-cms" type="link" search="./search/cms.web.cern.chnewswhat-cms.search" name="Useful Link" disc="CMS's disctription of cms" />
+        <resource href="/static/powerpoints/SliceForPowerpoint.pptx" type="globe" search="./search/SliceForPowerPoint.pptx.search" name="CMS and Particals" disc="A powerpoint showing the parts of cms intracting with verius particals. Click on a partical name to view it. From https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/ShowDocument?docid=5582" />
     </section>
 
 </sections>
