@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Artical - {{Title}}{% endblock %}
+{% block content %}
+    
+<h3>{{Title}}</h3>
+
+{{content|safe}}
+
+
+{% endblock %}
