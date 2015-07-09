@@ -12,5 +12,8 @@
         <resource href="http://cms.web.cern.ch/news/what-cms" type="link" search="./search/cms.web.cern.chnewswhat-cms.search" name="Useful Link" disc="CMS's disctription of cms" />
         <resource href="/static/powerpoints/SliceForPowerpoint.pptx" type="globe" search="./search/SliceForPowerPoint.pptx.search" name="CMS and Particals" disc="A powerpoint showing the parts of cms intracting with verius particals. Click on a partical name to view it. From https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/ShowDocument?docid=5582" />
     </section>
-
+    <section name="The Sciantific Method" disc="Overview of the Sciantific Method as it realates to the course">
+        <resource href="/artical/ScientificMethod.html" type="align-left" search="./search/ScientificMethod.html.search" name="The Scientific Method" disc="Overview of the scientific method" />
+        <resource href="http://www.cpepphysics.org/education/activity-4.pdf" type="link" search="./search/www.cpepphysics.org.education.activity-4.pdf.search" name="Worksheet" disc="A worksheet for the sciantific method" />
+    </section>
 </sections>
