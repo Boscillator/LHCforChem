@@ -19,5 +19,6 @@
     </section>
     <section name="Scientific Notation and Dimensional Analysis" disc="Scientific Notation and Dimensional Analysis with radiation units">
         <resource href="/artical/SNaDA.html" type="align-left" search="./search/SNaDA.html.search" name="Scientific Notation and Dimensional Analysis" disc="Worksheet on scientific notation and dimentional analisis"/>
+        <resource href="http://google.com" type="globe" search="./search/CMS.html.search" name="Google" disc="Google" />
     </section>
 </sections>
