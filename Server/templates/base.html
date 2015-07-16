@@ -23,9 +23,9 @@
         
         
     </head>
-    <body>
+    <body> <!--style="background-image: url(/static/img/background.png);"-->
         <!---Nav Bar--->
-        <nav class="nav navbar-default navbar-fixed-top">
+        <nav class="nav navbar-default navbar-static-top">
             <div class="container-fluid">
                 
                 <div class="pull-left" style="vertical-align: middle !important;">
@@ -48,9 +48,7 @@
             
         </nav>
         <!---Content--->
-        <br />
-        <br />
-        <div style="padding:0 19px">
+        <div class="container">
         {% block content %}{% endblock %}
         </div>
     </body>

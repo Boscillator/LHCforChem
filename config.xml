@@ -1,22 +1,23 @@
+<?xml version="1.0"?>
 <sections>
     <section name="The LHC" disc="The basics of the LHC. Where it is and what is does.">
         <tag>LHC</tag>
-        <resource href="/artical/WhatIsTheLHC.html" type="align-left" search="./search/WhatIsTheLHC.html.search" name="What is the LHC" disc="A quick overview of the LHC" />
-        <resource href="/static/img/LHCSITE000.png" type="picture" search="./search/LHCSITE000.png.search" name="LHC Map" disc="A diagram of the LHC" />
-        <resource href="/static/img/LHCSITE001.png" type="picture" search="./search/LHCSITE001.png.search" name="LHC Map" disc="A map of the LHC" />
+        <resource href="/artical/WhatIsTheLHC.html" type="align-left" search="./search/WhatIsTheLHC.html.search" name="What is the LHC" disc="A quick overview of the LHC"/>
+        <resource href="/static/img/LHCSITE000.png" type="picture" search="./search/LHCSITE000.png.search" name="LHC Map" disc="A diagram of the LHC"/>
+        <resource href="/static/img/LHCSITE001.png" type="picture" search="./search/LHCSITE001.png.search" name="LHC Map" disc="A map of the LHC"/>
     </section>
-    <section name="CMS" disc="All about The Compact Mewon Solonoid">
-        <resource href="/artical/CMS.html" type="align-left" search="./search/CMS.html.search" name="What is CMS" disc="A quick overview of CMS" />
-        <resource href="/static/img/LHCSITE002.png" type="picture" search="./search/LHCSITE002.png.search" name="CMS" disc="A picture of CMS while under construction" />
-        <resource href="/static/img/LHCSITE004.png" type="picture" search="./search/LHCSITE004.png.search" name="Diagram of CMS" disc="A diagram of the componance of CMS" />
-        <resource href="http://cms.web.cern.ch/news/what-cms" type="link" search="./search/cms.web.cern.chnewswhat-cms.search" name="Useful Link" disc="CMS's disctription of cms" />
-        <resource href="/static/powerpoints/SliceForPowerpoint.pptx" type="globe" search="./search/SliceForPowerPoint.pptx.search" name="CMS and Particals" disc="A powerpoint showing the parts of cms intracting with verius particals. Click on a partical name to view it. From https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/ShowDocument?docid=5582" />
+    <section name="CMS" disc="All about The Compact Muon Solonoid">
+        <resource href="/artical/CMS.html" type="align-left" search="./search/CMS.html.search" name="What is CMS" disc="A quick overview of CMS"/>
+        <resource href="/static/img/LHCSITE002.png" type="picture" search="./search/LHCSITE002.png.search" name="CMS" disc="A picture of CMS while under construction"/>
+        <resource href="/static/img/LHCSITE004.png" type="picture" search="./search/LHCSITE004.png.search" name="Diagram of CMS" disc="A diagram of the componance of CMS"/>
+        <resource href="http://cms.web.cern.ch/news/what-cms" type="link" search="./search/cms.web.cern.chnewswhat-cms.search" name="Useful Link" disc="CMS's disctription of cms"/>
+        <resource href="/static/powerpoints/SliceForPowerpoint.pptx" type="globe" search="./search/SliceForPowerPoint.pptx.search" name="CMS and Particals" disc="A powerpoint showing the parts of cms intracting with varius particals. Click on a partical name to view it. From https://cms-docdb.cern.ch/cgi-bin/PublicDocDB/ShowDocument?docid=5582"/>
     </section>
-    <section name="The Sciantific Method" disc="Overview of the Sciantific Method as it realates to the course">
-        <resource href="/artical/ScientificMethod.html" type="align-left" search="./search/ScientificMethod.html.search" name="The Scientific Method" disc="Overview of the scientific method" />
-        <resource href="http://www.cpepphysics.org/education/activity-4.pdf" type="link" search="./search/www.cpepphysics.org.education.activity-4.pdf.search" name="Worksheet" disc="A worksheet for the sciantific method" />
+    <section name="The Scientific Method" disc="Overview of the scientific method as it realates to this course.">
+        <resource href="/artical/ScientificMethod.html" type="align-left" search="./search/ScientificMethod.html.search" name="The Scientific Method" disc="Overview of the scientific method"/>
+        <resource href="http://www.cpepphysics.org/education/activity-4.pdf" type="link" search="./search/www.cpepphysics.org.education.activity-4.pdf.search" name="Worksheet" disc="A worksheet for the scientific method"/>
     </section>
     <section name="Scientific Notation and Dimensional Analysis" disc="Scientific Notation and Dimensional Analysis with radiation units">
-        <resource href="/artical/SNaDA.html" type="align-left" search="./search/SNaDA.html.search" name="Scientific Notation and Dimensional Analysis" disc="Worksheet of sciantific notation and dimentional analisis" /> 
+        <resource href="/artical/SNaDA.html" type="align-left" search="./search/SNaDA.html.search" name="Scientific Notation and Dimensional Analysis" disc="Worksheet on scientific notation and dimentional analisis"/>
     </section>
 </sections>
