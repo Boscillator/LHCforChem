@@ -3,6 +3,7 @@
     <section name="The LHC" disc="The basics of the LHC. Where it is and what is does.">
         <tag>LHC</tag>
         <resource href="/artical/WhatIsTheLHC.html" type="align-left" search="./search/WhatIsTheLHC.html.search" name="What is the LHC" disc="A quick overview of the LHC"/>
+	<resource href="/static/img/DevelopmentLHC.png" type="picture" search="./search/DevelopmentLHC.png.search" name="Development of the LHC" disc="Some information on the development of the LHC"/>
         <resource href="/static/img/LHCSITE000.png" type="picture" search="./search/LHCSITE000.png.search" name="LHC Map" disc="A diagram of the LHC"/>
         <resource href="/static/img/LHCSITE001.png" type="picture" search="./search/LHCSITE001.png.search" name="LHC Map" disc="A map of the LHC"/>
     </section>
@@ -19,6 +20,6 @@
     </section>
     <section name="Scientific Notation and Dimensional Analysis" disc="Scientific Notation and Dimensional Analysis with radiation units">
         <resource href="/artical/SNaDA.html" type="align-left" search="./search/SNaDA.html.search" name="Scientific Notation and Dimensional Analysis" disc="Worksheet on scientific notation and dimentional analisis"/>
-        <resource href="http://google.com" type="globe" search="./search/CMS.html.search" name="Google" disc="Google" />
+        
     </section>
 </sections>
