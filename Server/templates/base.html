@@ -20,7 +20,40 @@
             });
         </script>
         <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <script> 
+            $(document).ready(function(){
+                $('#1toggle').on('click', function (e) {
+                        e.preventDefault();
+                        var elem = $(this).next('#1panel')
+                        elem.toggle('slow');
+                    });
+            });
+        </script>
         
+        <script type = "text/javascript">
+            function toggleTable1() {
+                var lTable = document.getElementById("table1");
+                lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+            }
+            function toggleTable2() {
+                var lTable = document.getElementById("table2");
+                lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+            }
+            function toggleTable3() {
+                var lTable = document.getElementById("table3");
+                lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+            }
+            function toggleTable4() {
+                var lTable = document.getElementById("table4");
+                lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+            }
+            function toggleTable5() {
+                var lTable = document.getElementById("table5");
+                lTable.style.display = (lTable.style.display == "table") ? "none" : "table";
+            }
+        </script>
+
         
     </head>
     <body>

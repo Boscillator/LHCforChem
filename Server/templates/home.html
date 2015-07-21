@@ -15,17 +15,43 @@
         <img src="/static/img/HOME000.png" />
     </div>
 </div>
+
 <h3>Sections</h3>
-The following are the varius section, each has differnt content.
-<table class="table table-striped table-hover">
-    <tbody data-link="row" class="rowlink">
-    {% for value in sections %}
-        <tr>
-            <td><a href="{{url_for('section',id=loop.index-1)}}">{{loop.index}}</a></td>
-            <td>{{value.name}}</td>
-            <td>{{value.disc}}</td>
-        </tr>
-    {% endfor %}
-    </tbody>
-</table>
+The following are the various section, each has different content.
+{% for value in sections %}
+    <table class="table table-striped table-hover" style="width:100%">
+        <tbody data-link="row" class="rowlink">
+            <tr>
+                <script type="text/javascript">
+                    var tablename = "toggleTable{{loop.index}}();";
+                    document.write('<td width="3%"><a onclick='+tablename+' href="#">{{loop.index}}</a></td>');
+        
+                </script>
+                 <td width="30%">{{value.name}}</td>
+                 <td width="67%">{{value.disc}}</td>
+                
+            </tr>
+        </tbody>
+    </table>
+    <table id = "table{{loop.index}}" class="table table-striped table-hover" style="display:none">
+       <thead>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+       </thead>
+       <tbody data-link="row" class="rowlink">
+            {% for resource in value.resources %}
+            <tr>
+                <td><a href="{{resource.href}}" target="_self"><span class="glyphicon glyphicon-{{resource.resourceType}}"></span></a></td>
+                <td>{{resource.name}}</td>
+                <td>{{resource.disc}}</td>
+            </tr>
+            {% endfor %}
+       </tbody>
+    </table>
+
+{% endfor %}
+
 {% endblock %}

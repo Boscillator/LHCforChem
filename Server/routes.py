@@ -26,10 +26,10 @@ def search():
                 
     return render_template("search.html",resources=resources)
 
-@app.route('/artical/<name>')
+@app.route('/articles/<name>')
 def artical(name):
     try:
-        f = open('./articals/'+name)
+        f = open('./articles/'+name)
     except IOError:
         abort(404)
     text = f.read()
